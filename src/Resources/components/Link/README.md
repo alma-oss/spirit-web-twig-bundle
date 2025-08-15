@@ -41,6 +41,7 @@ Without lexer:
 | `href`         | `string`                                         | —         | ✔        | Link URL                           |
 | `isDisabled`   | `bool`                                           | `false`   | ✕        | If true, Link is disabled          |
 | `isUnderlined` | `bool`                                           | `false`   | ✕        | If true, Link is underlined        |
+| `rel`          | `string`                                         | `null`    | ✕        | Link relationship                  |
 | `target`       | `string`                                         | `null`    | ✕        | Browsing context for the link      |
 | `title`        | `string`                                         | `null`    | ✕        | Optional title to display on hover |
 
