@@ -37,6 +37,7 @@ Without lexer:
 | `isDisabled` | `bool`                                                                                    | `false`   | ✕        | If true, ButtonLink is disabled                                                |
 | `isLoading`  | `bool`                                                                                    | `false`   | ✕        | If true, ButtonLink is in a loading state, disabled and the Spinner is visible |
 | `isSquare`   | `bool`                                                                                    | `false`   | ✕        | If true, ButtonLink is square, usually only with an Icon                       |
+| `rel`        | `string`                                                                                  | `null`    | ✕        | Link relationship                                                              |
 | `size`       | [Size dictionary][dictionary-size]                                                        | `medium`  | ✕        | Size variant                                                                   |
 | `target`     | `string`                                                                                  | `null`    | ✕        | Browsing context for the link                                                  |
 | `title`      | `string`                                                                                  | `null`    | ✕        | Optional title to display on hover                                             |

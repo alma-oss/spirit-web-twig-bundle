@@ -75,6 +75,7 @@ The underline is never visible, even when the link is hovered over.
 | `href`         | `string`                                         | —         | ✓        | Link URL                                                                                   |
 | `isDisabled`   | `bool`                                           | `false`   | ✕        | If true, Link is disabled                                                                  |
 | `isUnderlined` | `bool`                                           | `false`   | ✕        | [**DEPRECATED**][readme-deprecations] in favor of `underline`; If true, Link is underlined |
+| `rel`          | `string`                                         | `null`    | ✕        | Link relationship                                                                          |
 | `target`       | `string`                                         | `null`    | ✕        | Browsing context for the link                                                              |
 | `title`        | `string`                                         | `null`    | ✕        | Optional title to display on hover                                                         |
 | `underlined`   | `hover` \| `always` \| `never`                   | `hover`   | ✕        | When is the link underlined                                                                |

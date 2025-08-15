@@ -22,7 +22,7 @@
 {# Miscellaneous #}
 {%- set _styleProps = useStyleProps(props) -%}
 {%- set _classNames = [ _colorClassName, _rootDisabledClassName, rootUnderlinedClassName, _styleProps.className ] -%}
-{%- set _allowedAttributes = [ 'target', 'title' ] -%}
+{%- set _allowedAttributes = [ 'rel', 'target', 'title' ] -%}
 
 {% if _isUnderlined is defined %}
     {% deprecated '"isUnderlined" property will be replaced in the next major version. Please use "underline" instead.' %}
