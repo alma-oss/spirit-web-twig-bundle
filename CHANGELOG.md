@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.5.0"></a>
+
+# [3.5.0](https://github.com/lmc-eu/spirit-design-system/compare/@lmc-eu/spirit-web-twig@3.4.1...@lmc-eu/spirit-web-twig@3.5.0) (2025-08-18)
+
+### Features
+
+- **web-twig:** Allow rel attribute in Link & ButtonLink ([9a07ae5](https://github.com/lmc-eu/spirit-d
+
+**Note:** Version bump only for package @lmc-eu/spirit-web-twig
+
 <a name="3.4.1"></a>
 
 ## [3.4.1](https://github.com/lmc-eu/spirit-design-system/compare/@lmc-eu/spirit-web-twig@3.4.0...@lmc-eu/spirit-web-twig@3.4.1) (2024-10-14)
