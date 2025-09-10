@@ -22,21 +22,18 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
 
-      # TODO: install from npm instead, use npx or yarn dlx
-      - name: Build design Tokens
-        working-directory: ./packages/design-tokens
-        run: yarn build
-
-      # TODO: install from npm instead, use npx or yarn dlx
-      - name: Build Icons
-        working-directory: ./packages/icons
-        run: yarn build
+      - name: Install Icons
+        shell: bash
+        run: |
+          mkdir -p ./temp/icons
+          npm pack @lmc-eu/spirit-icons@2.3.2
+          tar -xzf lmc-eu-spirit-icons-*.tgz -C ./temp/icons
 
       - name: Save built icons
         uses: actions/upload-artifact@v4
         with:
           name: icons-dist
-          path: ./temp/icons
+          path: ./temp/icons/package
 
   unit-tests:
     needs: [prepare-icons]
@@ -56,7 +53,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: icons-dist
-          path: ./temp/icons
+          path: ./temp/icons/package
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
