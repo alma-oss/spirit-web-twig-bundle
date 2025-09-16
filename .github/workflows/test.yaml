@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
 
       - name: Enable Corepack
         shell: bash
@@ -47,7 +47,7 @@ jobs:
     name: 🧪 Unit Testing - PHP ${{ matrix.php-version }} ${{ matrix.dependencies }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
 
       - name: Download built icons
         uses: actions/download-artifact@v4
@@ -101,7 +101,7 @@ jobs:
     name: '📐 Analyzing Code Style and Types'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
