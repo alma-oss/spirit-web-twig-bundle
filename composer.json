@@ -21,7 +21,7 @@
     "twig/twig": "^2.12.5 || ^3.0.0"
   },
   "require-dev": {
-    "almacareer/coding-standard": "^4.2",
+    "almacareer/coding-standard": "^5.0",
     "ergebnis/composer-normalize": "^2.45",
     "mockery/mockery": "^1.5",
     "phpstan/extension-installer": "^1.1",
